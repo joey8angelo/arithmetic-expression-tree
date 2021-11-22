@@ -28,7 +28,7 @@ class arithmeticExpression{
     int evaluate(); // evaluates valid expression tree
 
  private:
-    void removeAll(TreeNode*); // destuctor helper
+    void removeAll(TreeNode*); // destructor helper
     int priority(char); // helper that determines the priority of given operators
     string infix_to_postfix(); // converts infix notation to postfix notation
     void infix(TreeNode *); // helper for infix
